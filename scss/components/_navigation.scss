@@ -15,9 +15,9 @@
     transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
+    &:hover {
+        color: $color-link;
+        background-color: lighten($color-secondary, 20);
+    }
 }
 
-.nav-link:hover {
-    color: $color-link;
-    background-color: $color-secondary;
-}
